@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "sin_decidir",
+  "preferences": {
+    "code_host": null,
+    "knowledge": null,
+    "structured_data": null,
+    "files": null,
+    "email": null,
+    "messaging": null,
+    "calendar": null,
+    "automation": null,
+    "browser": null,
+    "mobile": null,
+    "creative": null
+  },
+  "notes": "Sólo preferencias no secretas. Ningún proveedor es obligatorio."
+}

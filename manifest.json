@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "bundle": "portable-skills",
+  "skill_count": 22,
+  "skills": {
+    "portable-apps": "55686027adbc36e1718c54d42a5b61c40e23fb0919e221e85ed275c654b5cdc6",
+    "portable-audit": "f3bdeae524bb18deef5de7d30ba254119d90d38170eebc432d4a246d70878aa7",
+    "portable-automation": "a456fc7f52e492aabacb1770bf3e013c0911833e4c5593a7123225b3b1f4586c",
+    "portable-commerce": "d71c56c1e6a46ff8f1d0f3b12fae253fe1f6f3a6ee251fae3c0f7f00fd9f2375",
+    "portable-communications": "db4acd3589e80c20d7666da0d45c1f8f5b477f38adad08a15dab651164dc1a7f",
+    "portable-content": "fdb80df2d3b135b5ec41e58d06924ef47f4348938b2a6bfe4e0d556f175cee20",
+    "portable-data": "aa2de6b15576533e721548d4737c8f0097081984dc825f6fb4b0bba6dfab6e55",
+    "portable-devices": "8881859a2c39ac4f5e52b3da119168795529deca8eb1ca45de564caf6606925b",
+    "portable-documents": "32326e778a2c3ee36c80a353a6ce8bb508d76bfc12ba8c4365700002f4a17225",
+    "portable-evidence": "747d887f8adf0558233ceee6f4f4573fb590b022798e8ab11da99ab00e6698a4",
+    "portable-finance": "a51aae11d87c67e4afcbb9996e601221b761bc533b7d4f302eb4ea7c2ddf120b",
+    "portable-goals": "644fdc4f35b449c2954598b82ce9cde57a04f52234d61b188d24a31864da455e",
+    "portable-health": "cfd114a3b9b70ab2f194ae6e29f899359e3c81c0a72cd48fc2e148453b8c0d92",
+    "portable-infrastructure": "2ad547c8bb33c344d64e9b4c58180a44f67e09fdfbc99815c9e93c38a052cc72",
+    "portable-landscape": "976b41444bd554691cfd35bcf9d96ec35d3429c1d20ba4b19d088d92aebd3591",
+    "portable-legal": "98195b8d243fa12845107385c7f06f426fddb431b0bbe2f5cfaacc68e979fc75",
+    "portable-people-travel": "d88206580f0a34f825c192f267ffa16b272287b18881a6a004afd686eb11d213",
+    "portable-simplify": "064f65e435c8289266ab4c6a2638609833d2bd06b4ad3a394e33216694bc8dee",
+    "portable-skills": "660c55a5bc7140d83f66c16be40398ccd6515d6f551c9386aa5c7839b844a576",
+    "portable-spoc": "8de5e62eff89847142b92bb2a43c843b010d065f340e0d2ecd2ecae08ddefbe0",
+    "portable-sync": "908a62451989bdfdec7ff8b863f6b9c99dc52b44e32aebaec7e516d146a5aeb0",
+    "portable-tools": "dbc4ace1b9df661f36597bed44ba98703f77c403bf40b052e9613f4c875b423b"
+  },
+  "tool_catalog_sha256": "9493b104248041e11212dff3f2da01aaea2cbba02b632c5e0dab96dc7e8cf810"
+}
