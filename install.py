@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import shutil
 import sys
+import network
 
 HERE = Path(__file__).resolve().parent
 QUESTIONS = {
@@ -36,6 +37,8 @@ def manifest() -> dict[str, str]:
     catalog = HERE / "skills" / "portable-tools" / "references" / "tool-catalog.md"
     if sha(catalog) != record["tool_catalog_sha256"]:
         raise ValueError("El catálogo de herramientas no coincide con el manifiesto.")
+    if sha(HERE / "network.py") != record["network_sha256"]:
+        raise ValueError("El asistente de red no coincide con el manifiesto.")
     return declared
 
 
@@ -141,7 +144,13 @@ def install(expected: dict[str, str], targets: dict[str, Path], repair: bool = F
                 if not catalog.exists() or sha(catalog) != sha(source_catalog):
                     shutil.copy2(source_catalog, catalog)
         (root / "portable-tools" / "references" / "profile.json").write_text(rendered, encoding="utf-8")
-    return check(expected, targets)
+    result = check(expected, targets)
+    if result:
+        return result
+    if network.yes("¿Quieres diseñar ahora tu red de trabajo? Se propondrá Notion y tú decidirás el destino"):
+        return network.main()
+    print("Puedes diseñarla después con: python3 network.py")
+    return 0
 
 
 def main() -> int:

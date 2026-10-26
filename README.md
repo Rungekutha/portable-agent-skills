@@ -8,10 +8,13 @@ Si recibiste un enlace al repositorio, pégalo en Codex o Claude con esta petici
 
 1. Descarga el paquete desde el enlace compartido y extrae su carpeta.
 2. Ejecuta `python3 install.py` desde esa carpeta.
-3. El instalador detecta Codex y Claude, propone las rutas estándar de ambas aplicaciones, pregunta preferencias **opcionales** de herramientas y solicita permiso para instalar en las dos. No instala ni autentica servicios externos.
-4. Ejecuta `python3 install.py --check` para comparar ambas copias con el manifiesto. Después abre cada aplicación y comprueba que reconoce una skill, por ejemplo `portable-landscape`. Una carpeta copiada no demuestra descubrimiento.
+3. El instalador detecta Codex y Claude, propone las rutas estándar de ambas aplicaciones, pregunta preferencias **opcionales** de herramientas y solicita permiso para instalar en las dos.
+4. Al terminar ofrece diseñar una red propia. Pregunta objetivos, temas, quién decide y relaciones reales; propone **Notion**, pero admite archivos locales. Muestra el plan y pide permiso antes de crear la estructura. Para Notion, la persona debe conectar una integración a una página suya y escribir el token en la entrada oculta del instalador. El token no se guarda. Crea un índice y una base de nodos con relaciones, estados, owner, escritor, fuente, destino y siguiente acción; relee los objetos creados. No importa datos privados de otra persona ni inventa tareas.
+5. Ejecuta `python3 install.py --check` para comparar ambas copias con el manifiesto. Después abre cada aplicación y comprueba que reconoce una skill, por ejemplo `portable-landscape`. Una carpeta copiada no demuestra descubrimiento.
 
 En una máquina con rutas no estándar, se pueden pasar `--codex-root RUTA` y `--claude-root RUTA`. El instalador no sobrescribe una skill existente con el mismo nombre; informa la colisión para revisarla. Las preferencias vacías quedan sin decidir y la skill preguntará sólo cuando la elección sea relevante.
+
+Si se pospone la red, se puede ejecutar `python3 network.py` más adelante. La creación en Notion requiere que la integración tenga acceso de lectura e inserción a la página seleccionada. Si una escritura devuelve un resultado incierto, revisa Notion antes de volver a ejecutar; el instalador evita crear otra red con el mismo nombre bajo la misma página. La instalación de skills y la creación de la red son etapas distintas: el éxito de una no certifica la otra.
 
 ## Mantenimiento
 

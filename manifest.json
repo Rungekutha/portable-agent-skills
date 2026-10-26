@@ -17,7 +17,7 @@
     "portable-goals": "644fdc4f35b449c2954598b82ce9cde57a04f52234d61b188d24a31864da455e",
     "portable-health": "cfd114a3b9b70ab2f194ae6e29f899359e3c81c0a72cd48fc2e148453b8c0d92",
     "portable-infrastructure": "2ad547c8bb33c344d64e9b4c58180a44f67e09fdfbc99815c9e93c38a052cc72",
-    "portable-landscape": "976b41444bd554691cfd35bcf9d96ec35d3429c1d20ba4b19d088d92aebd3591",
+    "portable-landscape": "331cd8426e19bd37969a84b6fd167e60093df02397be01712e931a14647d9412",
     "portable-legal": "98195b8d243fa12845107385c7f06f426fddb431b0bbe2f5cfaacc68e979fc75",
     "portable-people-travel": "d88206580f0a34f825c192f267ffa16b272287b18881a6a004afd686eb11d213",
     "portable-simplify": "064f65e435c8289266ab4c6a2638609833d2bd06b4ad3a394e33216694bc8dee",
@@ -26,5 +26,7 @@
     "portable-sync": "908a62451989bdfdec7ff8b863f6b9c99dc52b44e32aebaec7e516d146a5aeb0",
     "portable-tools": "dbc4ace1b9df661f36597bed44ba98703f77c403bf40b052e9613f4c875b423b"
   },
-  "tool_catalog_sha256": "9493b104248041e11212dff3f2da01aaea2cbba02b632c5e0dab96dc7e8cf810"
+  "tool_catalog_sha256": "9493b104248041e11212dff3f2da01aaea2cbba02b632c5e0dab96dc7e8cf810",
+  "network_sha256": "5036fc5bc9ae62f7508f76baf029e12eff03972d9ee2216b0c6c7cf4f278d330",
+  "version": "1.1.0"
 }
